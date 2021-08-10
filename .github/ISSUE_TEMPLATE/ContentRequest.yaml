@@ -16,6 +16,14 @@ body:
       placeholder: Students in India
     validations:
       required: true
+- type: input
+  id: dates
+  attributes:
+    label: Publish by date
+    description: Provide date content will go live.
+    placeholder: ex. 06/01/2021
+  validations:
+    required: true
   - type: textarea
     id: what-happened
     attributes:
