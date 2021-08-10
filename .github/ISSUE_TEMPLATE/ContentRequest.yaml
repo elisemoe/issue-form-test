@@ -1,9 +1,8 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: [bug, triage]
+name: Request content support
+description:  Request support for content creation from the Programs Team. 
+title: "[Content Request]: "
 assignees:
-  - octocat
+  - elisemoe
 body:
   - type: markdown
     attributes:
