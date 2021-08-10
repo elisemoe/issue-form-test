@@ -7,15 +7,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out the content request form!
   - type: input
-    id: contact
+    id: audience
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Target Audience
+      description: Audience selection criteria, list, etc.
+      placeholder: Students in India
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
