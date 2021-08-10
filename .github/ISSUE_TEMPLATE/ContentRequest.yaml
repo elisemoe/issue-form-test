@@ -25,6 +25,13 @@ body:
     validations:
       required: true
   - type: textarea
+    attributes:
+      label: Call to Action
+      placeholder: "What is the one action you would like your audience to take after seeing your content? What is the link?"
+    validations:
+      required: true
+
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
