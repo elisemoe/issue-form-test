@@ -28,9 +28,9 @@ body:
       required: true
       
   - type: dropdown
-    id: browsers
+    id: content
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Content types requested
       multiple: true
       options:
         - Email
