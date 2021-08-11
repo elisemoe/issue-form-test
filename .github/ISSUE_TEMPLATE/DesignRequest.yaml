@@ -11,9 +11,9 @@ body:
      
      
   - type: textarea
-    id: notes
+    id: overview
     attributes:
-      label: Notes
+      label: Overview
       description:
       placeholder: 
     validations:
