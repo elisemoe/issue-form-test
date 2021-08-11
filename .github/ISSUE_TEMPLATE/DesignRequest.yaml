@@ -1,0 +1,57 @@
+name: Request design support
+description:  Request support for design support from the Program Team. 
+title: "[Design Request]: "
+assignees:
+  - elisemoe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out the design request form!
+     
+     
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description:
+      placeholder: 
+    validations:
+      required: true
+      
+  - type: input
+    id: audience
+    attributes:
+      label: Target Audience
+      description: Audience selection criteria, list, etc.
+      placeholder: Students in India
+    validations:
+      required: true
+      
+  - type: input
+    id: dates
+    attributes:
+      label: Publish by date
+      description: Provide date content will go live.
+      placeholder: ex. 06/01/2021
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: content
+    attributes:
+      label: Is the publish date flexible?
+      multiple: true
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: content-type
+    attributes:
+      label: Content Type
+      placeholder: Where will the content live? What diminsions are required?
+    validations:
+      required: true
