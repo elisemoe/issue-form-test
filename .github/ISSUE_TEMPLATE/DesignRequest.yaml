@@ -43,8 +43,8 @@ body:
       label: Is the publish date flexible?
       multiple: true
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
  
