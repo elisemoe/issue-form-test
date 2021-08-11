@@ -49,9 +49,9 @@ body:
       required: true
  
   - type: textarea
-    id: content-type
+    id: deliverables
     attributes:
-      label: Content Type
-      placeholder: Where will the content live? What diminsions are required?
+      label: Deliverables
+      placeholder: Where will the design live? What diminsions are required?
     validations:
       required: true
